@@ -2,17 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e360cded-5bbb-414b-b5b7-15bd5aefa6de" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/Nathan_Kutzan.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/idvariables.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/handlers/handleMessage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/tools.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config-template.json" beforeDir="false" afterPath="$PROJECT_DIR$/config/config-template.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/citations.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/handleMessage.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/idvariables.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/citations.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/citations.json" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -35,11 +25,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="17">
               <caret line="1" column="18" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="citations.json" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/data/citations.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="1" selection-start-column="1" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -78,8 +77,8 @@
         <option value="$PROJECT_DIR$/lib/tools.js" />
         <option value="$PROJECT_DIR$/config/idvariables.json" />
         <option value="$PROJECT_DIR$/lib/handlers/handleMessage.js" />
-        <option value="$PROJECT_DIR$/data/citations.json" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/data/citations.json" />
       </list>
     </option>
   </component>
@@ -188,7 +187,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1527875271717</updated>
-      <workItem from="1527875273150" duration="13425000" />
+      <workItem from="1527875273150" duration="13484000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit">
       <created>1527876817607</created>
@@ -201,7 +200,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13425000" />
+    <option name="totallyTimeSpent" value="13484000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -266,13 +265,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data/citations.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="25" selection-start-line="1" selection-start-column="25" selection-end-line="1" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/handlers/handleMessage.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="232">
@@ -291,6 +283,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="1" column="18" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/citations.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="1" selection-start-column="1" selection-end-column="1" />
         </state>
       </provider>
     </entry>
