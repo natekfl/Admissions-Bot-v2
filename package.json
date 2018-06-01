@@ -1,0 +1,22 @@
+{
+  "name": "admissions-bot-v2",
+  "version": "1.0.0",
+  "description": "The offical bot for the IRF Admissions.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/natekfl/Admissions-Bot-v2.git"
+  },
+  "author": "natekfl",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/natekfl/Admissions-Bot-v2/issues"
+  },
+  "homepage": "https://github.com/natekfl/Admissions-Bot-v2#readme",
+  "dependencies": {
+    "discord.js": "^11.3.2"
+  }
+}
