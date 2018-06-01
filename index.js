@@ -1,5 +1,5 @@
 // Main variables
-const config =  require('./config.json');
+const config =  require('./config/config.json');
 const Discord  = require('discord.js');
 
 //Set up client
@@ -9,7 +9,11 @@ client.on('ready', () => {
 });
 
 // Register handlers
-client.on("message", message => require('./handleMessage.js')(message));
+client.on("message", message => require('./lib/handlers/handleMessage.js')(message));
 
 
 client.login(config.token);
+
+module.exports = {
+    client: client
+};
