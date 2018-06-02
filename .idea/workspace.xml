@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/lib/globalFuncs.js" line="47" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="e360cded-5bbb-414b-b5b7-15bd5aefa6de" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/data/suspensions.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/Nathan_Kutzan.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/Nathan_Kutzan.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config/idvariables.json" beforeDir="false" afterPath="$PROJECT_DIR$/config/idvariables.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
@@ -26,17 +28,8 @@
       <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="352">
-              <caret line="16" selection-start-line="16" selection-end-line="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="suspensions.json" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/data/suspensions.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="2" selection-start-column="2" selection-end-column="2" />
+            <state relative-caret-position="226">
+              <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
             </state>
           </provider>
         </entry>
@@ -44,17 +37,17 @@
       <file leaf-file-name="robloxActions.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/robloxActions.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="467">
-              <caret line="35" column="47" selection-start-line="35" selection-start-column="47" selection-end-line="35" selection-end-column="47" />
+            <state relative-caret-position="440">
+              <caret line="36" column="22" selection-start-line="36" selection-start-column="15" selection-end-line="36" selection-end-column="22" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="handleMessage.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="handleMessage.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lib/handlers/handleMessage.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="440">
-              <caret line="50" column="87" selection-start-line="50" selection-start-column="87" selection-end-line="50" selection-end-column="87" />
+            <state relative-caret-position="396">
+              <caret line="96" column="70" selection-start-line="96" selection-start-column="70" selection-end-line="96" selection-end-column="70" />
             </state>
           </provider>
         </entry>
@@ -62,8 +55,8 @@
       <file leaf-file-name="globalFuncs.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/globalFuncs.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="441">
-              <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
+            <state relative-caret-position="147">
+              <caret line="11" column="49" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="49" />
             </state>
           </provider>
         </entry>
@@ -71,17 +64,8 @@
       <file leaf-file-name="idvariables.json" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config/idvariables.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="234">
-              <caret line="9" column="36" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="tools.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/tools.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="50" selection-start-column="50" selection-end-column="50" />
+            <state relative-caret-position="136">
+              <caret line="8" column="36" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
             </state>
           </provider>
         </entry>
@@ -92,7 +76,20 @@
     <findStrings>
       <find>csrf</find>
       <find>suspendUser</find>
+      <find>11</find>
+      <find>.roles.</find>
+      <find>rankRoles.admissions</find>
+      <find>rankRoles.boothOp</find>
+      <find>12</find>
+      <find>setDiscordRank(</find>
+      <find>require('../globalFuncs.js')</find>
     </findStrings>
+    <replaceStrings>
+      <replace>miscRoles.admissions</replace>
+      <replace>miscRoles.boothOp</replace>
+      <replace>10</replace>
+      <replace>globalFuncs</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -111,12 +108,12 @@
         <option value="$PROJECT_DIR$/config/config-template.json" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/lib/robloxActions.js" />
-        <option value="$PROJECT_DIR$/lib/tools.js" />
-        <option value="$PROJECT_DIR$/config/idvariables.json" />
-        <option value="$PROJECT_DIR$/lib/handlers/handleMessage.js" />
-        <option value="$PROJECT_DIR$/lib/globalFuncs.js" />
         <option value="$PROJECT_DIR$/index.js" />
         <option value="$PROJECT_DIR$/data/suspensions.json" />
+        <option value="$PROJECT_DIR$/lib/tools.js" />
+        <option value="$PROJECT_DIR$/config/idvariables.json" />
+        <option value="$PROJECT_DIR$/lib/globalFuncs.js" />
+        <option value="$PROJECT_DIR$/lib/handlers/handleMessage.js" />
       </list>
     </option>
   </component>
@@ -137,9 +134,10 @@
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-7" />
-    <option name="width" value="974" />
-    <option name="height" value="1047" />
+    <option name="x" value="531" />
+    <option name="y" value="-23" />
+    <option name="width" value="1400" />
+    <option name="height" value="1000" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -168,12 +166,6 @@
               <item name="Admissions-Bot-v2" type="b2602c69:ProjectViewProjectNode" />
               <item name="Admissions-Bot-v2" type="462c0819:PsiDirectoryNode" />
               <item name="lib" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Admissions-Bot-v2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Admissions-Bot-v2" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
-              <item name="handlers" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -231,7 +223,7 @@
       <option name="presentableId" value="Default" />
       <updated>1527875271717</updated>
       <workItem from="1527875273150" duration="29544000" />
-      <workItem from="1527958371224" duration="5523000" />
+      <workItem from="1527958371224" duration="17773000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit">
       <created>1527876817607</created>
@@ -244,16 +236,17 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35067000" />
+    <option name="totallyTimeSpent" value="47317000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18020834" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32943678" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.23591924" />
       <window_info id="npm" order="2" side_tool="true" />
@@ -265,10 +258,29 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
     </layout>
+    <layout-to-restore>
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info id="npm" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18020834" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.23591924" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3995749" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="10" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -368,45 +380,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/handlers/handleMessage.js">
+    <entry file="file://$PROJECT_DIR$/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="50" column="87" selection-start-line="50" selection-start-column="87" selection-end-line="50" selection-end-column="87" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/idvariables.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="9" column="36" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
+        <state relative-caret-position="226">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/tools.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="50" selection-start-column="50" selection-end-column="50" />
+        <state relative-caret-position="85">
+          <caret line="5" column="34" lean-forward="true" selection-start-line="5" selection-start-column="34" selection-end-line="5" selection-end-column="34" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/globalFuncs.js">
+    <entry file="file://$PROJECT_DIR$/config/idvariables.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="441">
-          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
+        <state relative-caret-position="136">
+          <caret line="8" column="36" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/robloxActions.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="467">
-          <caret line="35" column="47" selection-start-line="35" selection-start-column="47" selection-end-line="35" selection-end-column="47" />
+        <state relative-caret-position="440">
+          <caret line="36" column="22" selection-start-line="36" selection-start-column="15" selection-end-line="36" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.js">
+    <entry file="file://$PROJECT_DIR$/lib/globalFuncs.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        <state relative-caret-position="147">
+          <caret line="11" column="49" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="49" />
         </state>
       </provider>
     </entry>
@@ -414,6 +419,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="2" selection-start-column="2" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/handlers/handleMessage.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="96" column="70" selection-start-line="96" selection-start-column="70" selection-end-line="96" selection-end-column="70" />
         </state>
       </provider>
     </entry>
