@@ -11,6 +11,7 @@ client.on('ready', () => {
 
     // Register handlers
     client.on("message", message => require('./lib/handlers/handleMessage.js')(message));
+    client.on("guildMemberAdd", member => require('./lib/handlers/handleJoin.js')(member))
 
 
     //Set up unsuspend timers
