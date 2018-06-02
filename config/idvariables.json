@@ -1,11 +1,23 @@
 {
-  "serverId": "452168402950422530",
+  "serverId": "451801631072190464",
   "robloxGroupId": 3052496,
   "channels": {
-    "citatelogchannel": "452178324400242688",
-    "suspendlogchannel": "452293192713502730"
+    "citatelogchannel": "451804814909767710",
+    "suspendlogchannel": "451804949664235520"
   },
   "roles": {
-    "suspended": "452285278347067396"
+    "admissions": "451808522053615617",
+    "suspended": "452447345720819714",
+    "labourLottery": "451803777406599179",
+    "apprentice": "451806272497647616",
+    "junior": "451806803055869952",
+    "inspector": "451807158518939650",
+    "senior": "451807212600295444 ",
+    "head": "451807459204399114",
+    "juniorSupervisor": "451807591568375808",
+    "supervisor": "451803212920651778",
+    "chief": "451802516754268161",
+    "highCommand": "451804317448404992",
+    "theAlmighty": "452137048556437505"
   }
 }
