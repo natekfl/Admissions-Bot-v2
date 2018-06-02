@@ -1,6 +1,10 @@
 {
+  "serverId": "452168402950422530",
   "channels": {
     "citatelogchannel": "452178324400242688",
     "suspendlogchannel": "451804949664235520"
+  },
+  "roles": {
+    "suspended": "452285278347067396"
   }
 }
