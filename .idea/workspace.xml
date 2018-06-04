@@ -51,8 +51,8 @@
       <find>unsuspe</find>
       <find>setDis</find>
       <find>message</find>
-      <find>const robloxActions = require(&quot;../robloxActions&quot;);</find>
-      <find>return true;</find>
+      <find />
+      <find />
       <find>console.l</find>
     </findStrings>
     <replaceStrings>
@@ -60,7 +60,7 @@
       <replace>miscRoles.boothOp</replace>
       <replace>10</replace>
       <replace>globalFuncs</replace>
-      <replace>return true; //Command syntax is correct</replace>
+      <replace />
     </replaceStrings>
   </component>
   <component name="Git.Settings">
