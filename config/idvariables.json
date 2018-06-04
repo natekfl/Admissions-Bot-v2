@@ -4,7 +4,8 @@
   "channels": {
     "citatelogchannel": "451804814909767710",
     "suspendlogchannel": "451804949664235520",
-    "rolereqchannel": "451811876578394132"
+    "rolereqchannel": "451811876578394132",
+    "trialreportchannel": "451823333923618856"
   },
   "rankRoles": {
     "suspended": "452447345720819714",

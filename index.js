@@ -11,7 +11,12 @@ client.on('ready', () => {
 
     // Register handlers
     client.on("message", message => require('./lib/handlers/handleMessage.js')(message));
-    client.on("guildMemberAdd", member => require('./lib/handlers/handleJoin.js')(member))
+    client.on("guildMemberAdd", member => require('./lib/handlers/handleJoin.js')(member));
+    client.on("messageReactionRemove", (reaction, user) => {
+        if (reaction.message.channel.id === idvariables.channels.trialreportchannel && reaction.emoji.toString() === "❌" && reaction.users.has(client.user.id) && user.id !== client.user.id) {
+            require('./lib/handlers/handleTrialReport.js').retryGroupPromote(reaction.message);
+        }
+    });
 
 
     //Set up unsuspend timers
