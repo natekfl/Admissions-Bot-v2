@@ -25,7 +25,7 @@ client.on('ready', () => {
     for (let userId in suspensions) {
         setTimeout(function() {
             globalFuncs.unsuspendUser(client.guilds.get(idvariables.serverId).members.get(userId))
-        }, (suspensions[userId][0] - time));
+        }, (suspensions[userId].endEpoch - time));
     }
 });
 
