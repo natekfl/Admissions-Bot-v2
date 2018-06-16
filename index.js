@@ -24,7 +24,15 @@ client.on('ready', () => {
     let time = (new Date()).getTime();
     for (let userId in suspensions) {
         setTimeout(function() {
-            globalFuncs.unsuspendUser(client.guilds.get(idvariables.serverId).members.get(userId))
+            let userToUnsuspend = client.guilds.get(idvariables.serverId).members.get(userId);
+            if (userToUnsuspend) {globalFuncs.unsuspendUser(userToUnsuspend)} else {
+
+                delete suspensions[userId];
+                //Write to file
+                require('fs').writeFile("./data/suspensions.json", JSON.stringify(suspensions, null, 2), function (err) {
+                    if (err) return console.log(err);
+                });
+            }
         }, (suspensions[userId].endEpoch - time));
     }
 });
