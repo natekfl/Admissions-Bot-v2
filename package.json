@@ -18,8 +18,6 @@
   "homepage": "https://github.com/natekfl/Admissions-Bot-v2#readme",
   "dependencies": {
     "discord.js": "^11.3.2",
-    "forever": "^0.15.3",
-    "npm": "^6.1.0",
     "roblox-js": "^4.0.2"
   }
 }
