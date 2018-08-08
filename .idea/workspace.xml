@@ -32,27 +32,27 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="gitignore" value="1" />
-          <entry key="js" value="1" />
+          <entry key="js" value="2" />
           <entry key="json" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="JSON" value="2" />
-          <entry key="JavaScript" value="1" />
+          <entry key="JavaScript" value="2" />
           <entry key="PLAIN_TEXT" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="js" value="227" />
+          <entry key="js" value="279" />
           <entry key="json" value="15" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JSON" value="15" />
-          <entry key="JavaScript" value="227" />
+          <entry key="JavaScript" value="279" />
         </counts>
       </usages-collector>
     </session>
@@ -60,19 +60,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/lib/globalFuncs.js">
+        <entry file="file://$PROJECT_DIR$/lib/handlers/handleMessage.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="571">
-              <caret line="104" column="52" selection-start-line="104" selection-start-column="52" selection-end-line="104" selection-end-column="52" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/idvariables.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" column="20" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="20" />
+            <state relative-caret-position="438">
+              <caret line="186" column="72" selection-start-line="186" selection-start-column="72" selection-end-line="186" selection-end-column="72" />
             </state>
           </provider>
         </entry>
@@ -135,9 +126,9 @@
         <option value="$PROJECT_DIR$/data/failedTrials.json" />
         <option value="$PROJECT_DIR$/lib/handlers/handleTrialReport.js" />
         <option value="$PROJECT_DIR$/data/testApproved.json" />
-        <option value="$PROJECT_DIR$/lib/handlers/handleMessage.js" />
         <option value="$PROJECT_DIR$/config/idvariables.json" />
         <option value="$PROJECT_DIR$/lib/globalFuncs.js" />
+        <option value="$PROJECT_DIR$/lib/handlers/handleMessage.js" />
       </list>
     </option>
   </component>
@@ -265,7 +256,7 @@
       <workItem from="1529425672606" duration="914000" />
       <workItem from="1530419954490" duration="1581000" />
       <workItem from="1530465758507" duration="4649000" />
-      <workItem from="1533746939541" duration="948000" />
+      <workItem from="1533746939541" duration="1533000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit">
       <created>1527876817607</created>
@@ -278,7 +269,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="95009000" />
+    <option name="totallyTimeSpent" value="95594000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -434,17 +425,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/handlers/handleMessage.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2236">
-          <caret line="283" column="13" lean-forward="true" selection-start-line="283" selection-start-column="13" selection-end-line="283" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/robloxActions.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="476">
           <caret line="28" column="17" selection-start-line="28" selection-start-column="17" selection-end-line="28" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/globalFuncs.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="571">
+          <caret line="104" column="52" selection-start-line="104" selection-start-column="52" selection-end-line="104" selection-end-column="52" />
         </state>
       </provider>
     </entry>
@@ -455,10 +446,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/globalFuncs.js">
+    <entry file="file://$PROJECT_DIR$/lib/handlers/handleMessage.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="571">
-          <caret line="104" column="52" selection-start-line="104" selection-start-column="52" selection-end-line="104" selection-end-column="52" />
+        <state relative-caret-position="438">
+          <caret line="186" column="72" selection-start-line="186" selection-start-column="72" selection-end-line="186" selection-end-column="72" />
         </state>
       </provider>
     </entry>
