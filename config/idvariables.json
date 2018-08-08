@@ -4,7 +4,7 @@
   "channels": {
     "citatelogchannel": "451804814909767710",
     "suspendlogchannel": "451804949664235520",
-    "rolereqchannel": "451811876578394132",
+    "rolereqchannel": "476796318032068608",
     "trialreportchannel": "451823333923618856",
     "hicomchannel": "451806359248306179"
   },
@@ -16,8 +16,8 @@
     "inspector": "451807158518939650",
     "senior": "451807212600295444",
     "head": "451807459204399114",
-    "juniorSupervisor": "451807591568375808",
     "supervisor": "451803212920651778",
+    "staffsupervisor": "476057240009310238",
     "chief": "451802516754268161",
     "highCommand": "451804317448404992",
     "theAlmighty": "452137048556437505"
