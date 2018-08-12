@@ -5,7 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e360cded-5bbb-414b-b5b7-15bd5aefa6de" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/Nathan_Kutzan.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/Nathan_Kutzan.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/citations.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/citations.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/testApproved.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/testApproved.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/globalFuncs.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/globalFuncs.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/handlers/handleMessage.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/handlers/handleMessage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/robloxActions.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/robloxActions.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -20,35 +26,36 @@
     <session id="-1129378091">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="2" />
+          <entry key="project.open.time.34" value="1" />
           <entry key="project.open.time.5" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.opened" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="gitignore" value="1" />
-          <entry key="js" value="3" />
-          <entry key="json" value="2" />
+          <entry key="js" value="13" />
+          <entry key="json" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JSON" value="2" />
-          <entry key="JavaScript" value="3" />
+          <entry key="JSON" value="3" />
+          <entry key="JavaScript" value="13" />
           <entry key="PLAIN_TEXT" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="js" value="295" />
-          <entry key="json" value="15" />
+          <entry key="js" value="2180" />
+          <entry key="json" value="17" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JSON" value="15" />
-          <entry key="JavaScript" value="295" />
+          <entry key="JSON" value="17" />
+          <entry key="JavaScript" value="2180" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts" />
@@ -59,17 +66,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lib/handlers/handleMessage.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1008">
-              <caret line="310" column="27" lean-forward="true" selection-start-line="310" selection-start-column="27" selection-end-line="310" selection-end-column="27" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="25" column="18" selection-start-line="25" selection-start-column="18" selection-end-line="25" selection-end-column="18" />
+            <state relative-caret-position="185">
+              <caret line="212" column="162" selection-start-line="212" selection-start-column="162" selection-end-line="212" selection-end-column="162" />
             </state>
           </provider>
         </entry>
@@ -98,6 +96,8 @@
       <find>canbe</find>
       <find>trial</find>
       <find>6</find>
+      <find>rankme</find>
+      <find>!suspend</find>
     </findStrings>
     <replaceStrings>
       <replace>miscRoles.admissions</replace>
@@ -118,7 +118,6 @@
         <option value="$PROJECT_DIR$/idvariables.json" />
         <option value="$PROJECT_DIR$/handleMessage.js" />
         <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/data/citations.json" />
         <option value="$PROJECT_DIR$/lib/globalActions.js" />
         <option value="$PROJECT_DIR$/config/config-template.json" />
         <option value="$PROJECT_DIR$/README.md" />
@@ -128,12 +127,13 @@
         <option value="$PROJECT_DIR$/index.js" />
         <option value="$PROJECT_DIR$/config/config.json" />
         <option value="$PROJECT_DIR$/data/suspensions.json" />
-        <option value="$PROJECT_DIR$/lib/robloxActions.js" />
         <option value="$PROJECT_DIR$/data/failedTrials.json" />
         <option value="$PROJECT_DIR$/lib/handlers/handleTrialReport.js" />
         <option value="$PROJECT_DIR$/data/testApproved.json" />
         <option value="$PROJECT_DIR$/config/idvariables.json" />
+        <option value="$PROJECT_DIR$/data/citations.json" />
         <option value="$PROJECT_DIR$/lib/globalFuncs.js" />
+        <option value="$PROJECT_DIR$/lib/robloxActions.js" />
         <option value="$PROJECT_DIR$/lib/handlers/handleMessage.js" />
       </list>
     </option>
@@ -263,6 +263,7 @@
       <workItem from="1530419954490" duration="1581000" />
       <workItem from="1530465758507" duration="4649000" />
       <workItem from="1533746939541" duration="3059000" />
+      <workItem from="1533848369923" duration="10351000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit">
       <created>1527876817607</created>
@@ -275,7 +276,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="97120000" />
+    <option name="totallyTimeSpent" value="107471000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -289,13 +290,13 @@
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18018967" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18018967" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32943678" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.2342048" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.23318872" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3995749" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -372,25 +373,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/handlers/handleJoin.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="20" column="1" lean-forward="true" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/handlers/handleTrialReports.js" />
     <entry file="file://$PROJECT_DIR$/data/suspensions.json">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="1" selection-start-column="1" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/citations.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1589">
-          <caret column="1" lean-forward="true" selection-start-column="1" selection-end-column="1" />
         </state>
       </provider>
     </entry>
@@ -423,20 +410,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/robloxActions.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="28" column="17" selection-start-line="28" selection-start-column="17" selection-end-line="28" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/globalFuncs.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="571">
-          <caret line="104" column="52" selection-start-line="104" selection-start-column="52" selection-end-line="104" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config/idvariables.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
@@ -444,17 +417,52 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/data/citations.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="1" selection-start-column="1" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/handlers/handleJoin.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="1" lean-forward="true" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/globalFuncs.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-341">
+          <caret line="73" lean-forward="true" selection-start-line="73" selection-end-line="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/roblox-js/lib/group/handleJoinRequest.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="302">
+          <caret line="44" column="14" selection-start-line="44" selection-start-column="14" selection-end-line="44" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/robloxActions.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="492">
+          <caret line="65" column="39" selection-start-line="65" selection-start-column="39" selection-end-line="65" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
+        <state relative-caret-position="374">
           <caret line="25" column="18" selection-start-line="25" selection-start-column="18" selection-end-line="25" selection-end-column="18" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/handlers/handleMessage.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1008">
-          <caret line="310" column="27" lean-forward="true" selection-start-line="310" selection-start-column="27" selection-end-line="310" selection-end-column="27" />
+        <state relative-caret-position="185">
+          <caret line="212" column="162" selection-start-line="212" selection-start-column="162" selection-end-line="212" selection-end-column="162" />
         </state>
       </provider>
     </entry>
