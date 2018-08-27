@@ -10,7 +10,7 @@ client.on('ready', () => {
     const globalFuncs =  require('./lib/globalFuncs.js');
 
     // Register handlers
-    client.on("message", message => require('./lib/handlers/handleMessage.js')(message));
+    client.on("message", message => (message.channel.type === "dm") ? require('./lib/handlers/handleDm.js')(message) : require('./lib/handlers/handleMessage.js')(message));
     client.on("guildMemberAdd", member => require('./lib/handlers/handleJoin.js')(member));
     client.on("messageReactionRemove", (reaction, user) => {
         if (reaction.message.channel.id === idvariables.channels.trialreportchannel && reaction.emoji.toString() === "❌" && reaction.users.has(client.user.id) && user.id !== client.user.id) {
