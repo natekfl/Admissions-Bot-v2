@@ -5,14 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e360cded-5bbb-414b-b5b7-15bd5aefa6de" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/data/awaitingProof.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/handlers/handleDm.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/config-template.json" beforeDir="false" afterPath="$PROJECT_DIR$/config/config-template.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/idvariables.json" beforeDir="false" afterPath="$PROJECT_DIR$/config/idvariables.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/handlers/handleMessage.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/handlers/handleMessage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/robloxActions.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/robloxActions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/handlers/handleTrialReport.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/handlers/handleTrialReport.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -27,53 +21,54 @@
     <session id="-1129378091">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="5" />
+          <entry key="project.closed" value="7" />
           <entry key="project.open.time.34" value="1" />
+          <entry key="project.open.time.37" value="1" />
           <entry key="project.open.time.46" value="1" />
           <entry key="project.open.time.5" value="1" />
           <entry key="project.open.time.54" value="1" />
           <entry key="project.open.time.6" value="1" />
           <entry key="project.open.time.86" value="1" />
-          <entry key="project.opened" value="6" />
+          <entry key="project.opened" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="gitignore" value="2" />
-          <entry key="js" value="40" />
-          <entry key="json" value="56" />
+          <entry key="js" value="41" />
+          <entry key="json" value="57" />
           <entry key="md" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JSON" value="56" />
-          <entry key="JavaScript" value="40" />
+          <entry key="JSON" value="57" />
+          <entry key="JavaScript" value="41" />
           <entry key="PLAIN_TEXT" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="js" value="5543" />
+          <entry key="js" value="5568" />
           <entry key="json" value="110" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JSON" value="110" />
-          <entry key="JavaScript" value="5543" />
+          <entry key="JavaScript" value="5568" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts" />
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+    <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/data/awaitingProof.json">
+        <entry file="file://$PROJECT_DIR$/lib/handlers/handleTrialReport.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="1" selection-start-column="1" selection-end-column="1" />
+            <state relative-caret-position="299">
+              <caret line="34" column="62" lean-forward="true" selection-start-line="34" selection-start-column="62" selection-end-line="34" selection-end-column="62" />
             </state>
           </provider>
         </entry>
@@ -142,7 +137,6 @@
         <option value="$PROJECT_DIR$/lib/handlers/handleTrialReports.js" />
         <option value="$PROJECT_DIR$/data/suspensions.json" />
         <option value="$PROJECT_DIR$/data/failedTrials.json" />
-        <option value="$PROJECT_DIR$/lib/handlers/handleTrialReport.js" />
         <option value="$PROJECT_DIR$/config/config-template.json" />
         <option value="$PROJECT_DIR$/config/config.json" />
         <option value="$PROJECT_DIR$/data/citations.json" />
@@ -155,6 +149,7 @@
         <option value="$PROJECT_DIR$/lib/handlers/handleMessage.js" />
         <option value="$PROJECT_DIR$/index.js" />
         <option value="$PROJECT_DIR$/data/awaitingProof.json" />
+        <option value="$PROJECT_DIR$/lib/handlers/handleTrialReport.js" />
       </list>
     </option>
   </component>
@@ -184,7 +179,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -217,6 +211,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -286,7 +281,8 @@
       <workItem from="1534608699480" duration="1715000" />
       <workItem from="1534626384284" duration="1912000" />
       <workItem from="1535307142203" duration="7527000" />
-      <workItem from="1535326142285" duration="7412000" />
+      <workItem from="1535326142285" duration="8011000" />
+      <workItem from="1535341251069" duration="428000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit">
       <created>1527876817607</created>
@@ -299,7 +295,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="126037000" />
+    <option name="totallyTimeSpent" value="127064000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -312,7 +308,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18018967" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -320,7 +315,7 @@
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32943678" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.2527115" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.2527115" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3995749" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -391,13 +386,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/handlers/handleTrialReport.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="54" column="12" selection-start-line="54" selection-start-column="12" selection-end-line="56" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config/config.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
@@ -433,13 +421,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/handlers/handleProofReact.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="2" column="2" lean-forward="true" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/handlers/handleProofReact.js" />
     <entry file="file://$PROJECT_DIR$/config/idvariables.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
@@ -458,13 +440,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="816">
           <caret line="48" column="5" selection-start-line="48" selection-start-column="5" selection-end-line="48" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/citations.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="1" selection-start-column="1" selection-end-column="1" />
         </state>
       </provider>
     </entry>
@@ -514,6 +489,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="1" selection-start-column="1" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/citations.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="1" selection-start-column="1" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/handlers/handleTrialReport.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="34" column="62" lean-forward="true" selection-start-line="34" selection-start-column="62" selection-end-line="34" selection-end-column="62" />
         </state>
       </provider>
     </entry>
