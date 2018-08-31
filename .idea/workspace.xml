@@ -21,6 +21,7 @@
       <usages-collector id="statistics.lifecycle.project">
         <counts>
           <entry key="project.closed" value="10" />
+          <entry key="project.open.time.12" value="1" />
           <entry key="project.open.time.283" value="1" />
           <entry key="project.open.time.34" value="1" />
           <entry key="project.open.time.37" value="1" />
@@ -31,7 +32,7 @@
           <entry key="project.open.time.54" value="1" />
           <entry key="project.open.time.6" value="1" />
           <entry key="project.open.time.86" value="1" />
-          <entry key="project.opened" value="10" />
+          <entry key="project.opened" value="11" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -51,14 +52,14 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="js" value="6159" />
+          <entry key="js" value="6190" />
           <entry key="json" value="110" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JSON" value="110" />
-          <entry key="JavaScript" value="6159" />
+          <entry key="JavaScript" value="6190" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts" />
@@ -78,8 +79,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lib/handlers/handleMessage.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="639">
-              <caret line="389" column="73" selection-start-line="389" selection-start-column="73" selection-end-line="389" selection-end-column="73" />
+            <state relative-caret-position="333">
+              <caret line="375" column="92" lean-forward="true" selection-start-line="375" selection-start-column="92" selection-end-line="375" selection-end-column="92" />
             </state>
           </provider>
         </entry>
@@ -299,6 +300,7 @@
       <workItem from="1535655895105" duration="1001000" />
       <workItem from="1535657094204" duration="123000" />
       <workItem from="1535678997884" duration="295000" />
+      <workItem from="1535679531244" duration="74000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit">
       <created>1527876817607</created>
@@ -311,7 +313,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="128483000" />
+    <option name="totallyTimeSpent" value="128557000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -324,6 +326,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18018967" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -517,8 +520,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/handlers/handleMessage.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="639">
-          <caret line="389" column="73" selection-start-line="389" selection-start-column="73" selection-end-line="389" selection-end-column="73" />
+        <state relative-caret-position="333">
+          <caret line="375" column="92" lean-forward="true" selection-start-line="375" selection-start-column="92" selection-end-line="375" selection-end-column="92" />
         </state>
       </provider>
     </entry>
