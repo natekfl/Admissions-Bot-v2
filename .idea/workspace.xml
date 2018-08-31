@@ -52,14 +52,14 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="js" value="6190" />
+          <entry key="js" value="6191" />
           <entry key="json" value="110" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JSON" value="110" />
-          <entry key="JavaScript" value="6190" />
+          <entry key="JavaScript" value="6191" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts" />
@@ -79,8 +79,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lib/handlers/handleMessage.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="333">
-              <caret line="375" column="92" lean-forward="true" selection-start-line="375" selection-start-column="92" selection-end-line="375" selection-end-column="92" />
+            <state relative-caret-position="367">
+              <caret line="377" column="17" lean-forward="true" selection-start-line="377" selection-start-column="17" selection-end-line="377" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -300,7 +300,7 @@
       <workItem from="1535655895105" duration="1001000" />
       <workItem from="1535657094204" duration="123000" />
       <workItem from="1535678997884" duration="295000" />
-      <workItem from="1535679531244" duration="74000" />
+      <workItem from="1535679531244" duration="227000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit">
       <created>1527876817607</created>
@@ -313,7 +313,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="128557000" />
+    <option name="totallyTimeSpent" value="128710000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -520,8 +520,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/handlers/handleMessage.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="333">
-          <caret line="375" column="92" lean-forward="true" selection-start-line="375" selection-start-column="92" selection-end-line="375" selection-end-column="92" />
+        <state relative-caret-position="367">
+          <caret line="377" column="17" lean-forward="true" selection-start-line="377" selection-start-column="17" selection-end-line="377" selection-end-column="17" />
         </state>
       </provider>
     </entry>
