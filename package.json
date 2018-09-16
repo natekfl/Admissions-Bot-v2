@@ -19,6 +19,6 @@
   "dependencies": {
     "discord.js": "^11.3.2",
     "npm": "^6.4.1",
-    "roblox-js": "^4.0.3"
+    "roblox-js": "^4.0.4"
   }
 }

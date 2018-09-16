@@ -12,9 +12,9 @@ client.on('ready', () => {
     const fs = require('fs');
     const dir = `${__dirname}/data`;
     !fs.existsSync(dir) && fs.mkdirSync(dir);
-    const dataFiles = ['awaitingProof.json', 'citations.json', 'failedTrials.json', 'suspensions.json', 'testApproved.json']
+    const dataFiles = ['awaitingProof.json', 'citationData.json', 'aTestData.json', 'suspensionData.json', 'approvalData.json', 'userData.json']
     for (let f in dataFiles) {
-        require('fs').writeFile(`${dir}/${dataFiles[f]}`, '{}', { flag: 'wx' }, function (err) {
+        fs.writeFile(`${dir}/${dataFiles[f]}`, '{}', { flag: 'wx' }, function (err) {
             if (!err) {
                 console.log(`Added data file ${dataFiles[f]}`);
             }
@@ -36,20 +36,31 @@ client.on('ready', () => {
 
 
         //Set up unsuspend timers
-        let suspensions = require('./data/suspensions.json');
+        let suspensions = require('./data/suspensionData.json');
         let time = (new Date()).getTime();
-        for (let userId in suspensions) {
-            setTimeout(function () {
-                let userToUnsuspend = client.guilds.get(idvariables.serverId).members.get(userId);
-                if (userToUnsuspend) { globalFuncs.unsuspendUser(userToUnsuspend) } else {
+        for (let suspensionId in suspensions) {
+            const suspension = suspensions[suspensionId];
+            if (suspension.actualEndEpoch === null) {
+                setTimeout(function () {
+                    globalFuncs.endSuspension(suspensionId)
+                }, (suspension.scheduledEndEpoch - time));
+            }
+        }
 
-                    delete suspensions[userId];
-                    //Write to file
-                    require('fs').writeFile("./data/suspensions.json", JSON.stringify(suspensions, null, 2), function (err) {
-                        if (err) return console.log(err);
-                    });
-                }
-            }, (suspensions[userId].endEpoch - time));
+        //Set up approval timeout
+        let approvedData = require("./data/approvalData.json");
+        for (let approvedId in approvedData) {
+            if (approvedData[approvedId].open === true) {
+                setTimeout(() => {
+                    let approvedData = require("./data/approvalData.json");
+                    if (approvedId in approvedData && approvedData[approvedId].open === true) {
+                        approvedData[approvedId].open = false;
+                        require('fs').writeFile("./data/approvalData.json", JSON.stringify(approvedData, null, 2), function (err) {
+                            if (err) return console.log(err);
+                        });
+                    }
+                }, ((approvedData[approvedId].time + (2 * (60*60*24*7))) - time));
+            }
         }
     }
 });
