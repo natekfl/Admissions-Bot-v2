@@ -59,7 +59,7 @@ client.on('ready', () => {
                             if (err) return console.log(err);
                         });
                     }
-                }, ((approvedData[approvedId].time + (2 * (60*60*24*7))) - time));
+                }, ((approvedData[approvedId].time + (2 * (1000 * 60 * 60 * 24 * 7))) - time));
             }
         }
     }
