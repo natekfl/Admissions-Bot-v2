@@ -2,12 +2,12 @@
   "serverId": "451801631072190464",
   "robloxGroupId": 3052496,
   "channels": {
-    "citatelogchannel": "451804814909767710",
-    "suspendlogchannel": "451804949664235520",
-    "rolereqchannel": "476796318032068608",
-    "trialreportchannel": "451823333923618856",
-    "hicomchannel": "451806359248306179",
-    "proofapprovalchannel": "483383332525047848"
+    "citatelogchannel": "508619731658604545",
+    "suspendlogchannel": "508620056221974536",
+    "rolereqchannel": "508409684106018817",
+    "trialreportchannel": "508449515292852247",
+    "hicomchannel": "508410014277566488",
+    "proofapprovalchannel": "508741356580110336"
   },
   "rankRoles": {
     "suspended": "452447345720819714",
@@ -15,11 +15,11 @@
     "apprentice": "451806272497647616",
     "junior": "451806803055869952",
     "inspector": "451807158518939650",
-    "senior": "451807212600295444",
-    "head": "451807459204399114",
-    "supervisor": "451803212920651778",
-    "staffsupervisor": "476057240009310238",
-    "chief": "451802516754268161",
+	"senior": "519594036768669696",
+	"head": "519594359008526346",
+    "juniorSupervisor": "519594222777794580",
+	"supervisor": "519594927789965323",
+    "chief": "519594780121104384",
     "highCommand": "451804317448404992",
     "theAlmighty": "452137048556437505"
   },
@@ -28,7 +28,6 @@
     "boothOp": "451806588731129856",
     "staff": "451807348915306497",
     "trainer": "451819809684848662",
-    "serverMod": "452084332417253386",
     "awaitingVerification": "451805936772710402"
   }
 }
